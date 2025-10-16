@@ -1,0 +1,21 @@
+#spring:
+#  servlet:
+#    multipart:
+#      max-file-size: 100MB
+#      max-request-size: 100MB
+#
+#ai:
+#  openai:
+#    apiKeyEnv: OPENAI_API_KEY
+#    baseUrl: https://api.openai.com/
+#    defaultChatModel: gpt-4-turbo
+#    defaultTemp: 0.7
+#
+#  google:
+#    baseUrl: https://vision.googleapis.com/
+#    credentials:
+#      path: ${GOOGLE_APPLICATION_CREDENTIALS:} # or leave empty to use ADC or API key mode
+#      json: ""
+#    scopes:
+#      - https://www.googleapis.com/auth/cloud-platform
+#    apiKeyEnv: GOOGLE_VISION_KEY
